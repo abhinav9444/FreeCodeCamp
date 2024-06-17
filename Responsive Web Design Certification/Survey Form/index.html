@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form"> 
+    <label for="name-label">Enter Your Full Name: <input id="name" type="text" placeholder="Your Name here..."> </label>
+    <label for="email-label">Email:<input id="email" type="email" placeholder="Your Email here..."></label>
+    <label for="number-label">Number:<input id="number" type="number" placeholder="Your Number here..."></label>
+    <select id="dropdown">
+      <option value="">Select Gender</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+    </select>
+    <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+
+        <legend >Rate us</legend>
+        <label for="1"><input id="1" type="checkbox" name="rating" class="inline" value="1"/> 1 star</label>
+        <label for="2"><input id="2" type="checkbox" name="rating" class="inline" value="2"/> 2 star</label>
+        <label for="3"><input id="3" type="checkbox" name="rating" class="inline" value="3"/> 3 star</label>
+        <label for="4"><input id="4" type="checkbox" name="rating" class="inline" value="4"/> 4 star</label>
+        <label for="5"><input id="5" type="checkbox" name="rating" class="inline" value="5"/> 5 star</label>
+        <label for="comments">Comments :
+          <textarea id="comment" rows="3" cols=20" placeholder="Suggestions are welcome..."></textarea>
+        </label>
+  <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
