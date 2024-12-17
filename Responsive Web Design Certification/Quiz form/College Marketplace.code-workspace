@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop/JAVA PROJECT"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../../Music/movie-reviews"
+		},
+		{
+			"path": "../../../../../Music/Web dev Project"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"unistd.h": "c"
+		}
+	}
+}
